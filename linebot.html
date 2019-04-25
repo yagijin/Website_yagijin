@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 
-<title>cook</title>
+<title>yagijin</title>
 
 </head>
 
@@ -19,16 +19,25 @@
 <hr class="clear">
 
 <h2>linebotを製作しました</h2>
-<p><a href="https://codezine.jp/article/detail/9810" target="_blank">CODEZINE</a>の記事を読んで,herokuを用いてlinebotを製作しました.初めての経験でしたが，細かい情報は,linebotapi公式リファレンスを読んだら結構わかりました.<br>
-プランはdevelopersTrialを選択しました．このプランでは友達を50人までしか登録できませんが，結構な機能が使えます．replyAPIだけでなくpushAPIまで試すことができたので,
+<p><a href="https://codezine.jp/article/detail/9810" target="_blank">CODEZINE</a>の記事を読んで,herokuを用いてlinebotを製作しました.
+初めての経験でしたが，細かい情報は,<a href="https://developers.line.biz/ja/reference/messaging-api/" target="_blank">linebotapi公式リファレンス</a>を読んだら結構わかりました.<br>
+プランはdevelopersTrialを選択しました．このプランでは友達を50人までしか登録できませんが，結構な機能が使えます．
+replyAPIだけでなくpushAPIまで試すことができたので,
 身内ネタでたくさん遊べて結構たのしかったです.<br>
 他にもリッチメニューなどがあったので時間があればそっちの方も触ってみたいと思います.</p>
 
 <h2>作成したlinebot<br>
-<img src="image/linebot.png" alt="linebot" width="200" height="200"></h2>
-<p>塩釜口駅付近のラーメン屋さんをオススメしてくれます.ただ，よくいじるので仕様は変更されるかもしれません．</p>
+<img src="image/linebot1.png" alt="linebot" width="200"></h2>
+<p>毎日，初回のトークだけheroku側の問題により，返信が20秒ほどラグがあります．いろいろ機能がありますが，よくいじるので仕様は変更されるかもしれません．</p>
 
 
+<h2>使用例1<br>
+<img src="image/linebot3.png" alt="linebot" width="200"></h2>
+<p>”らーめん”や”ラーメン”と送ると，塩釜口駅付近のラーメン屋さんをランダムで1店舗オススメしてくれます.</p>
+
+<h2>使用例2<br>
+<img src="image/linebot2.png" alt="linebot" width="200"></h2>
+<p>”3”,”4”,”5”などと送ってください．カップ麺用のタイマーです．所定の時間経過後ラインが届きます．</p>
 
 </body>
 </html>
