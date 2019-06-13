@@ -4,6 +4,7 @@ import Research from '@/components/Research'
 import Products from '@/components/Products'
 import Hobby from '@/components/Hobby'
 import Profile from '@/components/Profile'
+import Privacy from '@/components/Privacy'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/Hobby',
       name: 'Hobby',
       component: Hobby
+    },
+    {
+      path: '/Privacy',
+      name: 'Privacy',
+      component: Privacy
     }
   ]
 })
