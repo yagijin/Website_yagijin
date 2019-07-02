@@ -12,7 +12,6 @@
           <b-nav-item href="#/Research"> 研究 </b-nav-item>
           <b-nav-item href="#/Products"> 作成物 </b-nav-item>
           <b-nav-item href="#/Hobby"> 趣味 </b-nav-item>
-          <b-nav-item href="https://www.at-contact.jp/" target="_brank"> コンタクト </b-nav-item>
         </b-navbar-nav>
         </b-collapse>
       </b-navbar>

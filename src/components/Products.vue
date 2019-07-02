@@ -4,8 +4,8 @@
     <b-row>
       <b-col>
         <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+          title="Portfolio Site"
+          img-src="../../src/assets/portfolio.png"
           img-alt="Image"
           img-top
           tag="article"
@@ -13,15 +13,15 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            このポートフォリオサイト<br><br><br>
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button href="https://portfolio.yagijin.com" block variant="secondary">GO Website</b-button>
         </b-card>
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="Muse DEMO"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -30,10 +30,10 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              オープンキャンパスなどで見せる簡易脳波計MUSEのデモ<br><br>
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="#" block variant="secondary">GO Github</b-button>
           </b-card>
       </b-col>
       <b-col>
@@ -50,7 +50,7 @@
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="#" block variant="secondary">GO Github</b-button>
           </b-card>
       </b-col>
     </b-row>
@@ -161,6 +161,7 @@
       </b-col>
     </b-row>
   </b-container>
+  <br><br><br><br><br><br>
 </div>
 </template>
 

@@ -1,6 +1,4 @@
-# portfolio
-
-> my portfolio
+# portfolio.yagijin.com  
 
 ## Build Setup
 
