@@ -9,7 +9,7 @@
                             <b-card-img :src="url" class="rounded-0"></b-card-img>
                         </b-col>
                         <b-col md="6">
-                            <b-card-body title="ボードゲーム">
+                            <b-card-body title="ボードゲームあ">
                             <b-card-text>
                                 カタン日本選手権2019：地区予選敗退<br><br>
                                 よくやるもの<br>
