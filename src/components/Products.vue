@@ -21,7 +21,7 @@
       </b-col>
       <b-col>
         <b-card
-            title="Muse DEMO"
+            title="Muse Demo"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -38,7 +38,7 @@
       </b-col>
       <b-col>
         <b-card
-            title="自動ドア"
+            title="Automatic Door"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -47,7 +47,7 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              ArduinoとNFCリーダを使用して，家のドアをカードで開くスマートな自動ドアにする計画
             </b-card-text>
 
             <b-button href="#" block variant="secondary">GO Github</b-button>
@@ -57,7 +57,7 @@
     <b-row class="pt-5"><!-- 二段目 -->
       <b-col>
         <b-card
-          title="Card Title"
+          title="P300"
           img-src="https://picsum.photos/600/300/?image=25"
           img-alt="Image"
           img-top
@@ -66,15 +66,15 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            脳波の成分であるP300用の刺激のプログラムと処理して表示するプログラム<br><br>
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button href="#" block variant="secondary">GO Github</b-button>
         </b-card>
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="Shizuoka Navi"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -83,15 +83,15 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              静岡出身を活かして，静岡市周辺の発信するべき観光スポットをわかりやすいUIで紹介
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="#" block variant="secondary">GO Github</b-button>
           </b-card>
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="Magic I Made"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -100,17 +100,17 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              スライハンド系のマジックをいくつか考案，販売<br><br>
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="#" block variant="secondary">GO Website</b-button>
           </b-card>
       </b-col>
     </b-row>
         <b-row class="pt-5 pb-5"><!-- 3段目 -->
       <b-col>
         <b-card
-          title="Card Title"
+          title="Boardgame"
           img-src="https://picsum.photos/600/300/?image=25"
           img-alt="Image"
           img-top
@@ -119,15 +119,15 @@
           class="mb-2"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            作成したボードゲームを下記サイトにて販売中<br><br>
           </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <b-button href="#" block variant="secondary">GO Website</b-button>
         </b-card>
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="Thesis Converter"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -136,15 +136,15 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              論文の翻訳を手伝ってくれるツール<br><br><br>
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="https://github.com/yagijin/Thesis_Converter" block variant="secondary">GO Github</b-button>
           </b-card>
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="Linebot"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
@@ -153,10 +153,10 @@
             class="mb-2"
           >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              ラインボット<br><br><br>
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button href="#" block variant="secondary">GO Github</b-button>
           </b-card>
       </b-col>
     </b-row>

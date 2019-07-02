@@ -13,6 +13,28 @@
             研究では，MATLAB，Java，Pythonを使用<br>
             </p>
         </b-media>
+        <br><br>
+        <b-card-group deck>
+            <b-card
+                border-variant="secondary"
+                header="Github"
+                header-border-variant="secondary"
+                header-bg-variant="secondary"
+                align="center"
+            >
+                <b-button href="https://github.com/yagijin" block variant="info">GO</b-button>
+            </b-card>
+
+            <b-card
+                border-variant="secondary"
+                header="Twitter"
+                header-border-variant="secondary"
+                header-bg-variant="info"
+                align="center"
+            >
+                <b-button href="https://twitter.com/yagijinjin" block variant="secondary">GO</b-button>
+            </b-card>
+        </b-card-group>
         </b-container>
     </div>
 </template>

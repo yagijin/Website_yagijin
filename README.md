@@ -1,4 +1,8 @@
 # portfolio.yagijin.com  
+[ポートフォーリオサイト](https://portfolio.yagijin.com/)
+
+# gh-pages設定方法  
+https://qiita.com/uriuriuriu/items/e764c4f1754d49754a0c
 
 ## Build Setup
 
