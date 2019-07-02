@@ -38,7 +38,7 @@
       </b-col>
       <b-col>
         <b-card
-            title="Card Title"
+            title="自動ドア"
             img-src="https://picsum.photos/600/300/?image=25"
             img-alt="Image"
             img-top
