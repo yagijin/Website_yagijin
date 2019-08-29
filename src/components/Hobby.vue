@@ -57,7 +57,8 @@
                                 ・カナダ<br>
                                 ・アメリカ<br>
                                 ・台湾<br>
-                                ・タイ
+                                ・タイ<br>
+                                ・ドイツ
                             </b-card-text>
                             </b-card-body>
                         </b-col>
