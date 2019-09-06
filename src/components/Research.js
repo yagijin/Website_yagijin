@@ -39,11 +39,10 @@ const useStyles = makeStyles(theme => ({
     switch (props.step) {
       case 0:
         return <Container maxWidth="md">
-              <img src="./static/materials/research/ssvep.png"  alt="アイコン" width="100%"/>
+              <img src="./static/materials/research/bci.jpg"  alt="bci" width="100%"/>
               </Container>
       case 1:
         return <Container maxWidth="md">
-                <img src="./static/materials/research/ssvep.png"  alt="ssvep" width="100%"/>
                 </Container>
       case 2:
         return <Container maxWidth="md">
