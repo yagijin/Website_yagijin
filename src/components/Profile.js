@@ -261,7 +261,7 @@ export default function Profile() {
                       </Typography>
                       <Typography>
                         なんでもやります．<br />
-                        カタン日本選手権2019地区予選敗退.
+                        特にカタン，カルカソンヌ，スコットランドヤードなどが好きです．
                       </Typography>
                     </CardContent>
                     <CardActions>
