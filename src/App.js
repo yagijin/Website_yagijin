@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Welcome from './components/Welcome.js'
+//import Welcome from './components/Welcome.js'
 import Profile from './components/Profile.js'
 import Research from './components/Research.js'
 import Products from './components/Products.js'

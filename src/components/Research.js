@@ -23,9 +23,6 @@ const useStyles = makeStyles(theme => ({
     actionsContainer: {
       marginBottom: theme.spacing(2),
     },
-    resetContainer: {
-      padding: theme.spacing(3),
-    },
     title: {
       marginTop: theme.spacing(3),
     },

@@ -106,7 +106,7 @@ function Products() {
                             </Typography>
                             <Typography>
                                 HappyHacking賞受賞.<br/>
-                                任意の相手がWifiにつないだ時に検知して通知してくれるサービス.
+                                任意の相手がWifiにつないだ時に検知して通知してくれるサービス．開発ではAndroidアプリを担当．
                             </Typography>
                             </CardContent>
                             <CardActions>
@@ -125,6 +125,34 @@ function Products() {
                         </Grid>
 
                         <Grid item key={3} xs={12} sm={6} md={4}>
+                        <Card className={classes.card}>
+                            <CardMedia
+                            className={classes.cardMedia}
+                            image="./static/materials/profile/e-Bookmark.png"
+                            title="Portfolio"
+                            />
+                            <CardContent className={classes.cardContent}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                eBookmark
+                            </Typography>
+                            <Typography>
+                                OLEDとNFCで構成される次世代のしおり．コニカミノルタハッカソンにて作成，審査員特別賞受賞．主にデバイス側の処理やサーバとWEBアプリとの通信部分を担当．
+                            </Typography>
+                            </CardContent>
+                            <CardActions>
+                        
+                            <Fab variant="extended" size="medium" color="default" aria-label="add" className={classes.rightIcon} href="https://github.com/yagijin/ebookmark_device" target="_blank">
+                            <FontAwesomeIcon icon={faGithubSquare}  size="lg" className={classes.leftIcon}/>
+                                GitHub
+                            </Fab>
+                            <Fab variant="extended" size="medium" color="primary" aria-label="add" className={classes.rightIcon} href="http://konicaminolta-hackathon.mystrikingly.com/" target="_blank">
+                                konicaMinolta
+                            </Fab>
+                            </CardActions>
+                        </Card>          
+                        </Grid>
+
+                        <Grid item key={4} xs={12} sm={6} md={4}>
                         <Card className={classes.card}>
                             <CardMedia
                             className={classes.cardMedia}

@@ -53,10 +53,6 @@ export default function TabMenus() {
     setAnchorEl(null);
   }
 
-  function handleGo() {
-    setAnchorEl(null);
-  }
-
   return (
     <div>
       <Button
