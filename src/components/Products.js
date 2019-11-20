@@ -97,28 +97,29 @@ function Products() {
                         <Card className={classes.card}>
                             <CardMedia
                             className={classes.cardMedia}
-                            image="./static/materials/profile/hacku.png"
-                            title="HackU"
+                            image="./static/materials/profile/mousehat.png"
+                            title="mousehat"
                             />
                             <CardContent className={classes.cardContent}>
                             <Typography gutterBottom variant="h5" component="h2">
-                                Hack U 2019 参加作品
+                                MouseHat
                             </Typography>
                             <Typography>
-                                HappyHacking賞受賞.<br/>
-                                任意の相手がWifiにつないだ時に検知して通知してくれるサービス．開発ではAndroidアプリを担当．
+                               様々な賞を受賞．<br/>
+                               口癖を直すのを手伝ってくれるWebアプリ．<br/>
+                               JPHacks2019にて作成．<br/>
+                               内部の処理を担当．
                             </Typography>
                             </CardContent>
                             <CardActions>
                             
-                            <Fab variant="extended" size="medium" color="default" aria-label="add" className={classes.rightIcon} href="https://github.com/yagijin/hack_u2019nagoya" target="_blank">
+                            <Fab variant="extended" size="medium" color="default" aria-label="add" className={classes.rightIcon} href="https://github.com/jphacks/NG_1904" target="_blank">
                             <FontAwesomeIcon icon={faGithubSquare}  size="lg" className={classes.leftIcon}/>
                                 GitHub
                             </Fab>
 
-                            <Fab variant="extended" size="medium" color="secondary" aria-label="add" className={classes.rightIcon} href="https://hacku.yahoo.co.jp/hacku2019nagoya/" target="_blank">
-                            <FontAwesomeIcon icon={faYahoo}  size="md" className={classes.leftIcon}/>
-                                Yahoo!
+                            <Fab variant="extended" size="medium" color="secondary" aria-label="add" className={classes.rightIcon} href="https://mousehat.tokyo/" target="_blank">
+                                Mousehat
                             </Fab>
                             </CardActions>
                         </Card>
@@ -136,7 +137,10 @@ function Products() {
                                 eBookmark
                             </Typography>
                             <Typography>
-                                OLEDとNFCで構成される次世代のしおり．コニカミノルタハッカソンにて作成，審査員特別賞受賞．主にデバイス側の処理やサーバとWEBアプリとの通信部分を担当．
+                                審査員特別賞受賞．<br/>
+                                OLEDとNFCで構成される次世代のしおり．<br/>
+                                KMハッカソンにて作成．<br/>
+                                主にデバイス側の処理を担当．
                             </Typography>
                             </CardContent>
                             <CardActions>
@@ -156,16 +160,79 @@ function Products() {
                         <Card className={classes.card}>
                             <CardMedia
                             className={classes.cardMedia}
+                            image="./static/materials/profile/minimom.png"
+                            title="Portfolio"
+                            />
+                            <CardContent className={classes.cardContent}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                MiniMom
+                            </Typography>
+                            <Typography>
+                                Cookpad賞受賞<br/>
+                                片付けを習慣づけるお手伝いをしてくれるIoT棚<br/>
+                                OthloHack2019にて作成<br/>
+                                サーバサイドを担当
+                            </Typography>
+                            </CardContent>
+                            <CardActions>
+                        
+                            <Fab variant="extended" size="medium" color="default" aria-label="add" className={classes.rightIcon} href="https://github.com/yagijin/MiniMom" target="_blank">
+                            <FontAwesomeIcon icon={faGithubSquare}  size="lg" className={classes.leftIcon}/>
+                                GitHub
+                            </Fab>
+                            <Fab variant="extended" size="medium" color="primary" aria-label="add" className={classes.rightIcon} href="https://hack.othlo.tech/2019/" target="_blank">
+                                OthloHack
+                            </Fab>
+                            </CardActions>
+                        </Card>          
+                        </Grid>
+                        
+                        <Grid item key={5} xs={12} sm={6} md={4}>
+                        <Card className={classes.card}>
+                            <CardMedia
+                            className={classes.cardMedia}
+                            image="./static/materials/profile/hacku.png"
+                            title="HackU"
+                            />
+                            <CardContent className={classes.cardContent}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Hack U 2019 参加作品
+                            </Typography>
+                            <Typography>
+                                HappyHacking賞受賞.<br/>
+                                任意の相手がWifiにつないだ時に検知して通知してくれるサービス．<br/>
+                                Androidアプリを担当．
+                            </Typography>
+                            </CardContent>
+                            <CardActions>
+                            
+                            <Fab variant="extended" size="medium" color="default" aria-label="add" className={classes.rightIcon} href="https://github.com/yagijin/hack_u2019nagoya" target="_blank">
+                            <FontAwesomeIcon icon={faGithubSquare}  size="lg" className={classes.leftIcon}/>
+                                GitHub
+                            </Fab>
+
+                            <Fab variant="extended" size="medium" color="secondary" aria-label="add" className={classes.rightIcon} href="https://hacku.yahoo.co.jp/hacku2019nagoya/" target="_blank">
+                            <FontAwesomeIcon icon={faYahoo}  size="md" className={classes.leftIcon}/>
+                                Yahoo!
+                            </Fab>
+                            </CardActions>
+                        </Card>
+                        </Grid>
+
+                        <Grid item key={6} xs={12} sm={6} md={4}>
+                        <Card className={classes.card}>
+                            <CardMedia
+                            className={classes.cardMedia}
                             image="./static/materials/profile/portfolio.png"
                             title="Portfolio"
                             />
                             <CardContent className={classes.cardContent}>
                             <Typography gutterBottom variant="h5" component="h2">
-                                <FontAwesomeIcon icon={faReact}  size="md" className={classes.leftIcon}/>
                                 ポートフォリオ
                             </Typography>
                             <Typography>
-                                このポートフォリオサイト．
+                                このポートフォリオサイト．<br/>
+                                <FontAwesomeIcon icon={faReact}  size="md" className={classes.leftIcon}/>Reactにて作成
                             </Typography>
                             </CardContent>
                             <CardActions>

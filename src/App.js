@@ -13,7 +13,6 @@ function App() {
     <Switch>{/* switchでは最初にURLにマッチした要素が描画される　*/}
             {/*<Route exact path="/" component={Welcome} />} />*/}
             <Route exact path="/" component={Profile} />
-            <Route exact path="/profile" component={Profile} />
             <Route exact path="/research" component={Research}/>
             <Route exact path="/products" component={Products}/>
             <Route exact path="/privacypolicy" component={PrivacyPolicy}/>
