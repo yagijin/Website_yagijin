@@ -104,7 +104,7 @@ export default function Profile() {
             <Container maxWidth="md">
             <Grid container spacing={1}>
               <Grid item xs={3} sm={3} md={2} align="left">
-                <Avatar alt="JinYagi" src="./static/materials/profile/yagi.jpg" className={classes.avatar}/>
+                <Avatar alt="JinYagi" src="./static/materials/profile/yagi.jpeg" className={classes.avatar}/>
               </Grid>
               <Grid item xs={9} sm={9} md={10} align="left">
                 <Typography component="h1" variant="h2" align="left" color="textPrimary" gutterBottom>

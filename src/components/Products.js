@@ -196,11 +196,12 @@ function Products() {
                             />
                             <CardContent className={classes.cardContent}>
                             <Typography gutterBottom variant="h5" component="h2">
-                                Hack U 2019 参加作品
+                                お母さん検出装置
                             </Typography>
                             <Typography>
                                 HappyHacking賞受賞.<br/>
                                 任意の相手がWifiにつないだ時に検知して通知してくれるサービス．<br/>
+                                HackU2019Nagoyaにて作成．<br/>
                                 Androidアプリを担当．
                             </Typography>
                             </CardContent>
@@ -220,6 +221,29 @@ function Products() {
                         </Grid>
 
                         <Grid item key={6} xs={12} sm={6} md={4}>
+                        <Card className={classes.card}>
+                            <CardMedia
+                            className={classes.cardMedia}
+                            image="./static/materials/profile/stick.jpg"
+                            title="HackU"
+                            />
+                            <CardContent className={classes.cardContent}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                洗濯日和
+                            </Typography>
+                            <Typography>
+                                IoT物干し竿．<br/>
+                                太陽の方角を自動で向き，雨が降るとき自動で取り込むためはやく乾燥できる．<br/>
+                                HackU2019Meijoにて作成．<br/>
+                                サーバサイドを担当．
+                            </Typography>
+                            </CardContent>
+                            <CardActions>
+                            </CardActions>
+                        </Card>
+                        </Grid>
+
+                        <Grid item key={7} xs={12} sm={6} md={4}>
                         <Card className={classes.card}>
                             <CardMedia
                             className={classes.cardMedia}
