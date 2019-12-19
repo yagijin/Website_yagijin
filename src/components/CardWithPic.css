@@ -1,0 +1,18 @@
+.button-stitch {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px #668ad8;
+    border: dashed 1px #FFF;
+    width: 100%;
+    text-align:center;
+  }
+  
+  .button-stitch:hover {
+    background: #5371b1;
+    box-shadow: 0px 0px 0px 5px #5371b1;
+  }
