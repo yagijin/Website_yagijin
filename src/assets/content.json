@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Github",
+        "imgURL": "./static/products/github.png",
+        "text": "ここに色々作成物があります"
+    },
+    {
+        "title": "Mousehat",
+        "imgURL": "./static/products/mousehat.png",
+        "text": "口癖を直すのを手伝ってくれるWebアプリ．<br/>JPHacks2019にて作成．"
+    },
+    {
+        "title": "eBookmark",
+        "imgURL": "./static/products/e-Bookmark.png",
+        "text": "OLEDとNFCで構成される次世代のしおり．<br/>KonicaMinoltaハッカソンにて作成．"
+    },
+    {
+        "title": "Minimom",
+        "imgURL": "./static/products/minimom.png",
+        "text": "片付けを習慣づけるお手伝いをしてくれるIoT棚．<br/>OthloHack2019にて作成．"
+    },
+    {
+        "title": "お母さん検出装置",
+        "imgURL": "./static/products/hacku.png",
+        "text": "任意の相手がWifiにつないだ時に検知して通知してくれるサービス．<br/>HackU2019Nagoyaにて作成．"
+    },
+    {
+        "title": "洗濯日和",
+        "imgURL": "./static/products/stick.jpg",
+        "text": "IoT物干し竿．太陽の方角を自動で向き，雨が降るとき自動で取り込むためはやく乾燥できる．<br/>HackU2019Meijoにて作成．"
+    },
+    {
+        "title": "ポートフォリオ",
+        "imgURL": "./static/products/portfolio.png",
+        "text": "私のポートフォリオサイト．"
+    }
+]

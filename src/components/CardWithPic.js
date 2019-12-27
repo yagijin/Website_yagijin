@@ -25,7 +25,7 @@ export default function CardWithPic (props) {
 
             <CardActions>            
                 <a href="https://mousehat.tokyo/" target="_blank" rel="noopener noreferrer" class="button-stitch">
-                    Mousehat
+                    詳細
                 </a>
             </CardActions>
     </Card>
