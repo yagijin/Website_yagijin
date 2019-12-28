@@ -26,7 +26,7 @@
     },
     {
         "title": "洗濯日和",
-        "imgURL": "./static/products/stick.jpg",
+        "imgURL": "./static/products/stick.png",
         "text": "IoT物干し竿．太陽の方角を自動で向き，雨が降るとき自動で取り込むためはやく乾燥できる．<br/>HackU2019Meijoにて作成．"
     },
     {
