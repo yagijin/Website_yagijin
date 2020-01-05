@@ -1,37 +1,52 @@
 [
     {
-        "title": "Github",
-        "imgURL": "./static/products/github.png",
-        "text": "ここに色々作成物があります"
+        "command": "help",
+        "argument": "",
+        "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab." ]
     },
     {
-        "title": "Mousehat",
-        "imgURL": "./static/products/mousehat.png",
-        "text": "口癖を直すのを手伝ってくれるWebアプリ．<br/>JPHacks2019にて作成．"
+        "command": "cat profile.txt",
+        "argument": "",
+        "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript（React）,Matlab...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
     },
     {
-        "title": "eBookmark",
-        "imgURL": "./static/products/e-Bookmark.png",
-        "text": "OLEDとNFCで構成される次世代のしおり．<br/>KonicaMinoltaハッカソンにて作成．"
+        "command": "cat award.txt",
+        "argument": "",
+        "text": [ "ハッカソンでの受賞経歴", "HackU2019Nagoya: HappyHacking賞", "KonicaMinoltaHackathon2019: 審査員特別賞", "OthloHack2019: Cookpad賞", "JPHACKS2019: Finalist, Innovator, Other 3 awards" ]
     },
     {
-        "title": "Minimom",
-        "imgURL": "./static/products/minimom.png",
-        "text": "片付けを習慣づけるお手伝いをしてくれるIoT棚．<br/>OthloHack2019にて作成．"
+        "command": "portfolio.app",
+        "argument": "",
+        "text": [ "You opened new window." ]
     },
     {
-        "title": "お母さん検出装置",
-        "imgURL": "./static/products/hacku.png",
-        "text": "任意の相手がWifiにつないだ時に検知して通知してくれるサービス．<br/>HackU2019Nagoyaにて作成．"
+        "command": "portfolio",
+        "argument": "",
+        "text": [ "You opened new window." ]
     },
     {
-        "title": "洗濯日和",
-        "imgURL": "./static/products/stick.png",
-        "text": "IoT物干し竿．太陽の方角を自動で向き，雨が降るとき自動で取り込むためはやく乾燥できる．<br/>HackU2019Meijoにて作成．"
+        "command": "github.app",
+        "argument": "",
+        "text": [ "You opened new window." ]
     },
     {
-        "title": "ポートフォリオ",
-        "imgURL": "./static/products/portfolio.png",
-        "text": "私のポートフォリオサイト．"
+        "command": "github",
+        "argument": "",
+        "text": [ "You opened new window." ]
+    },
+    {
+        "command": "products.app",
+        "argument": "",
+        "text": [ "You opened new window." ]
+    },
+    {
+        "command": "products",
+        "argument": "",
+        "text": [ "You opened new window." ]
+    },
+    {
+        "command": "ls",
+        "argument": "",
+        "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app" ]
     }
 ]

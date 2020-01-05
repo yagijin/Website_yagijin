@@ -1,0 +1,122 @@
+.portfolio-box {
+    height: 10vh;
+    text-align: right;
+}
+
+.portfolio-button {
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    height: 70%;
+    width: 200px;
+    color: white;
+    background-color: hsl(106, 26%, 62%);
+}
+
+.portfolio-button:focus{
+    outline: 0;
+    background-color: hsl(107, 15%, 36%);
+}
+
+.cmd-background {
+    height: 90vh;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cmd-help {
+    color: red;
+    font-weight: bold;
+}
+
+.cmd-console {
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 21%);
+    color: white;
+}
+
+.cmd-header {
+    background-color: #474747;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cmd-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.cmd-circle1 {
+    position: absolute;
+    left: 5px; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: red;
+}
+
+.cmd-circle2 {
+    position: absolute;
+    left: 20px; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: yellow;
+}
+
+.cmd-circle3 {
+    position: absolute;
+    left: 35px; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: greenyellow;
+}
+
+.cmd-title {
+    font-size: 15px;
+}
+
+.cmd-welcome {
+    text-align: left;
+    margin: 5px 5px 0 10px;
+}
+
+.cmd-commandline {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin: 10px;
+    font-size: 15px;
+}
+
+input[type="text"]:focus {
+    outline: 0;
+    border-color:　none;
+  }
+
+.cmd-rootpath {
+    margin: 0 10px 0 0;
+}
+
+.cmd-command {
+    background: hsl(0, 0%, 21%);
+    width: 100%;
+    border: none;
+    caret-color: white;
+    color: white;
+    font-size: 15px;
+}

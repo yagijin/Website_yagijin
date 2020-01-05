@@ -1,9 +1,0 @@
-.grid-ability {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 3em 0.8em;
-
-    padding: 0.8em; 
-    margin: 1em 1em 3em 1em;
-}

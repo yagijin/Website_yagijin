@@ -1,19 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-import { Route, Switch } from 'react-router-dom';
-
-import Profile from './pages/Profile.js'
-import NotFound from './pages/NotFound.js'
-
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
     <Router>
-        <Switch>
-            <Route exact path="/" component={Profile} />
-            <Route component={NotFound}/>
-        </Switch>
+        <App />
     </Router>
     , document.getElementById('root'));
+
+serviceWorker.unregister();
