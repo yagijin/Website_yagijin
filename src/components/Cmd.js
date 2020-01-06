@@ -47,11 +47,11 @@ export default function Cmd() {
           break;
         }else if(commandsWithArgs[0] === content[i].command){
           judgeCommand = true;
-
           for(let j=0;j<content[i].body.length;j++){
             if(commandsWithArgs[1]===content[i].body[j].argument){
               setHistory("$ " + input);
               setCommands(content[i].body[j].text);
+              break;
             }else{
               setHistory("$ " + input);
               setCommands(["incorrect argument."]);

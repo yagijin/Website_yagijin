@@ -3,8 +3,8 @@ import './OldCommands.css';
 
 export default function OldCommands(props) {
 
-    const text = props.commands.map((command =>
-        <div className="command">{command}</div>
+    const text = props.commands.map(((command,index) =>
+        <div key={index} className="command">{command}</div>
     ));
 
     return (
