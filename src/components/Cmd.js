@@ -16,7 +16,10 @@ export default function Cmd() {
     if(e.which === 13){
       for(let i=0;i<content.length;i++){
         let commandsWithArgs = input.split([" "]);
-        if(commandsWithArgs.length > 2 && (commandsWithArgs[0] === content[i].command)){
+        if(commandsWithArgs[0]===""){
+          judgeCommand = true;
+          break;
+        }else if(commandsWithArgs.length > 2 && (commandsWithArgs[0] === content[i].command)){
           judgeCommand = true;
           setHistory("$ " + input);
           setCommands(["too many arguments."]);
