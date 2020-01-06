@@ -25,7 +25,7 @@ export default function Cmd() {
               break;
             case "portfolio":
             case "portfolio.app":
-              window.open('https://portfolio.yagijin.com/');
+              window.open('https://portfolio.yagijin.com/#/profile');
               break;
             case "products":
             case "products.app":
