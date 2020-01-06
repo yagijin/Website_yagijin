@@ -16,6 +16,9 @@
     color: #ffffff;
     font-weight: bold;
     background-color: hsl(106, 20%, 56%);
+
+    box-shadow: 0px 0px 0px 5px hsl(106, 20%, 56%);
+    border: dashed 1px #FFF;
 }
 
 .portfolio-button:focus{
@@ -126,7 +129,6 @@ input[type="text"]:focus {
     font-size: 15px;
 }
 
-/* 横幅が 767px 以下であれば */
 @media (max-width:767px) {
     .portfolio-box {
         text-align: center;

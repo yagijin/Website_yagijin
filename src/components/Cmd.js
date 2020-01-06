@@ -1,8 +1,9 @@
 import React , { useState } from "react";
 import './Cmd.css';
 import content from '../assets/content.json';
-
 import OldCommands from "./OldCommands";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Cmd() {
 
@@ -51,7 +52,7 @@ export default function Cmd() {
   return (
     <div className="background">
       <div className="portfolio-box">
-        <button className="portfolio-button" onClick={() => toPortfolio()}>通常のポートフォリオは<br/>こちらから</button>
+        <button className="portfolio-button" onClick={() => toPortfolio()}><FontAwesomeIcon size="lg" icon={faAngleDoubleRight}/> 通常のポートフォリオは<br/>こちらから</button>
       </div>
       <div className='cmd-background'>
           <div className="cmd-console">
