@@ -1,7 +1,9 @@
-import React , { useState } from "react";
+import React , { useState, useEffect, useRef } from "react";
 import './Cmd.css';
 import content from '../assets/content.json';
 import OldCommands from "./OldCommands";
+import SL from "./SL";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,6 +12,13 @@ export default function Cmd() {
   const [input, setInput] = useState("");
   const [history, setHistory] = useState("");
   const [commands, setCommands] = useState([]);
+  const [stateSL, setStateSL] = useState(0);
+
+  const refStateSL = useRef(stateSL);
+
+  useEffect(() => {
+    refStateSL.current = stateSL;
+  }, [stateSL]);
 
   function keyPress(e) {
     let judgeCommand = false;
@@ -41,6 +50,15 @@ export default function Cmd() {
             case "products":
             case "products.app":
               window.open('https://portfolio.yagijin.com/#/products');
+              break;
+            case "sl":
+              const doSL = setInterval(() => { 
+                setStateSL(refStateSL.current+1);
+                if(refStateSL.current>120){
+                  clearInterval(doSL);
+                  setStateSL(0);
+                }
+               }, 20);
               break;
             default:
           }
@@ -89,6 +107,7 @@ export default function Cmd() {
             </div>
             <div className="cmd-welcome">Welcome to Yagijin's Portfolio!! Type "<span className="cmd-help">help</span>" to show commands.</div>
             <OldCommands commands={commands} history={history}/>
+            <SL do={stateSL}/>
             <div className="cmd-commandline">
               <div className="cmd-rootpath">
                 $

@@ -4,7 +4,7 @@
         "body": [
             {
                 "argument": "",
-                "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab." ]
+                "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab.", "sl -- don't use this command." ]
             }
         ]
     },
@@ -13,7 +13,7 @@
         "body": [
             {
                 "argument": "",
-                "text": [ "cat need <filename> as argument." ]
+                "text": [ "cat needs <filename> as argument." ]
             },
             {
                 "argument": "award.txt",
@@ -85,6 +85,15 @@
             {
                 "argument": "",
                 "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app" ]
+            }
+        ]
+    },
+    {
+        "command": "sl",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "you should use <ls> instead of <sl>." ]
             }
         ]
     }
