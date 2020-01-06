@@ -1,3 +1,7 @@
+.background {
+    background-color: #b1cca9;
+}
+
 .portfolio-box {
     height: 10vh;
     text-align: right;
@@ -9,8 +13,9 @@
     border-radius: 30px;
     height: 70%;
     width: 200px;
-    color: white;
-    background-color: hsl(106, 26%, 62%);
+    color: #ffffff;
+    font-weight: bold;
+    background-color: hsl(106, 20%, 56%);
 }
 
 .portfolio-button:focus{
@@ -119,4 +124,14 @@ input[type="text"]:focus {
     caret-color: white;
     color: white;
     font-size: 15px;
+}
+
+/* 横幅が 767px 以下であれば */
+@media (max-width:767px) {
+    .portfolio-box {
+        text-align: center;
+    }
+    .portfolio-button {
+        margin-right: 0px;
+    }
 }

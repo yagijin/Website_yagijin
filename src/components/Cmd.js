@@ -46,13 +46,12 @@ export default function Cmd() {
 
   function toPortfolio() {
     window.open("https://portfolio.yagijin.com/#/profile");
-    console.log("clicked")
   }
 
   return (
-    <div>
+    <div className="background">
       <div className="portfolio-box">
-        <button className="portfolio-button" onClick={() => toPortfolio()}>普通のポートフォリオはこちらから</button>
+        <button className="portfolio-button" onClick={() => toPortfolio()}>通常のポートフォリオは<br/>こちらから</button>
       </div>
       <div className='cmd-background'>
           <div className="cmd-console">
