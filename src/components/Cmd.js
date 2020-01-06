@@ -7,18 +7,25 @@ import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Cmd() {
 
-  const [command, setCommand] = useState("");
+  const [input, setInput] = useState("");
   const [history, setHistory] = useState("");
   const [commands, setCommands] = useState([]);
 
   function keyPress(e) {
-    let judge = false;
+    let judgeCommand = false;
     if(e.which === 13){
       for(let i=0;i<content.length;i++){
-        if(command === content[i].command){
-          setCommands(content[i].text);
-          setHistory("$ " + content[i].command);
-          judge = true;
+        let commandsWithArgs = input.split([" "]);
+        if(commandsWithArgs.length > 2 && (commandsWithArgs[0] === content[i].command)){
+          judgeCommand = true;
+          setHistory("$ " + input);
+          setCommands(["too many arguments."]);
+
+        }else if(commandsWithArgs.length < 2 && (commandsWithArgs[0] === content[i].command)){
+          judgeCommand = true;
+          setHistory("$ " + input);
+          setCommands(content[i].body[0].text);
+
           switch(content[i].command){
             case "github":
             case "github.app":
@@ -35,13 +42,26 @@ export default function Cmd() {
             default:
           }
           break;
+        }else if(commandsWithArgs[0] === content[i].command){
+          judgeCommand = true;
+
+          for(let j=0;j<content[i].body.length;j++){
+            if(commandsWithArgs[1]===content[i].body[j].argument){
+              setHistory("$ " + input);
+              setCommands(content[i].body[j].text);
+            }else{
+              setHistory("$ " + input);
+              setCommands(["incorrect argument."]);
+            }
+          }
+          break;
         }
       }
-      if(!judge){
+      if(!judgeCommand){
+        setHistory("$ " + input);
         setCommands(["command not found."]);
-        setHistory("$ " + command);
       }
-      setCommand("");
+      setInput("");
     };
   }
 
@@ -70,7 +90,7 @@ export default function Cmd() {
               <div className="cmd-rootpath">
                 $
               </div>
-              <input type="text" value={command} onChange={(e) => setCommand(e.target.value)} className="cmd-command" onKeyPress={(e) => keyPress(e)} >
+              <input type="text" value={input} onChange={(e) => setInput(e.target.value)} className="cmd-command" onKeyPress={(e) => keyPress(e)} >
               </input>
             </div>
           </div>

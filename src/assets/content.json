@@ -1,52 +1,91 @@
 [
     {
         "command": "help",
-        "argument": "",
-        "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab." ]
+            }
+        ]
     },
     {
-        "command": "cat profile.txt",
-        "argument": "",
-        "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab ...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
-    },
-    {
-        "command": "cat award.txt",
-        "argument": "",
-        "text": [ "ハッカソンでの受賞経歴", "HackU2019Nagoya: HappyHacking賞", "KonicaMinoltaHackathon2019: 審査員特別賞", "OthloHack2019: Cookpad賞", "JPHACKS2019: Finalist, Innovator, Other 3 awards" ]
+        "command": "cat",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "cat need <filename> as argument." ]
+            },
+            {
+                "argument": "award.txt",
+                "text": [ "ハッカソンでの受賞経歴", "HackU2019Nagoya: HappyHacking賞", "KonicaMinoltaHackathon2019: 審査員特別賞", "OthloHack2019: Cookpad賞", "JPHACKS2019: Finalist, Innovator, Other 3 awards" ]
+            },
+            {
+                "argument": "profile.txt",
+                "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab ...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
+            }
+        ]
     },
     {
         "command": "portfolio.app",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "portfolio",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "github.app",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "github",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "products.app",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "products",
-        "argument": "",
-        "text": [ "You opened new window." ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
     },
     {
         "command": "ls",
-        "argument": "",
-        "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app" ]
+        "body": [
+            {
+                "argument": "",
+                "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app" ]
+            }
+        ]
     }
 ]
