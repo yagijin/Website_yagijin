@@ -7,7 +7,7 @@
     {
         "command": "cat profile.txt",
         "argument": "",
-        "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript（React）,Matlab...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
+        "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab ...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
     },
     {
         "command": "cat award.txt",

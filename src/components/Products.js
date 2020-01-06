@@ -118,7 +118,7 @@ function Products() {
                                 GitHub
                             </Fab>
 
-                            <Fab variant="extended" size="medium" color="secondary" aria-label="add" className={classes.rightIcon} href="https://mousehat.tokyo/" target="_blank">
+                            <Fab variant="extended" size="medium" color="primary" aria-label="add" className={classes.rightIcon} href="https://mousehat.tokyo/" target="_blank">
                                 Mousehat
                             </Fab>
                             </CardActions>
@@ -212,7 +212,7 @@ function Products() {
                                 GitHub
                             </Fab>
 
-                            <Fab variant="extended" size="medium" color="secondary" aria-label="add" className={classes.rightIcon} href="https://hacku.yahoo.co.jp/hacku2019nagoya/" target="_blank">
+                            <Fab variant="extended" size="medium" color="primary" aria-label="add" className={classes.rightIcon} href="https://hacku.yahoo.co.jp/hacku2019nagoya/" target="_blank">
                             <FontAwesomeIcon icon={faYahoo}  size="md" className={classes.leftIcon}/>
                                 Yahoo!
                             </Fab>

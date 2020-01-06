@@ -11,6 +11,8 @@ import SchoolRoundedIcon from '@material-ui/icons/SchoolRounded';
 import InsertDriveFileRoundedIcon from '@material-ui/icons/InsertDriveFileRounded';
 import { Link } from 'react-router-dom';
 
+import './TabMenus.css';
+
 const StyledMenu = withStyles({
   paper: {
     border: '1px solid #d3d4d5',
@@ -71,7 +73,7 @@ export default function TabMenus() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link to="/profile">
+        <Link to="/profile" className="link">
           <StyledMenuItem>
             <ListItemIcon>
               <AccountCircle />
@@ -79,7 +81,7 @@ export default function TabMenus() {
             <ListItemText primary="Profile" />
           </StyledMenuItem>
         </Link>
-        <Link to="/research">
+        <Link to="/research" className="link">
           <StyledMenuItem>
             <ListItemIcon>
               <SchoolRoundedIcon />
@@ -87,7 +89,7 @@ export default function TabMenus() {
             <ListItemText primary="Research" />
           </StyledMenuItem>
         </Link>
-        <Link to="/products">
+        <Link to="/products" className="link">
           <StyledMenuItem>
             <ListItemIcon>
               <InsertDriveFileRoundedIcon />
