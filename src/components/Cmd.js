@@ -22,7 +22,11 @@ export default function Cmd() {
 
   function keyPress(e) {
     let judgeCommand = false;
-    if(e.which === 13){
+    if(e.key === "ArrowUp" || e.key === "ArrowDown"){
+      if(history.length>2){
+        setInput(history.slice(2));
+      }
+    }else if(e.key === "Enter"){
       for(let i=0;i<content.length;i++){
         let commandsWithArgs = input.split([" "]);
         if(commandsWithArgs[0]===""){
@@ -112,7 +116,7 @@ export default function Cmd() {
               <div className="cmd-rootpath">
                 $
               </div>
-              <input type="text" value={input} onChange={(e) => setInput(e.target.value)} className="cmd-command" onKeyPress={(e) => keyPress(e)} >
+              <input type="text" value={input} onChange={(e) => setInput(e.target.value)} className="cmd-command" onKeyDown={(e) => keyPress(e)} >
               </input>
             </div>
           </div>
