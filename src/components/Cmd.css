@@ -3,7 +3,7 @@
 }
 
 .portfolio-box {
-    height: 10vh;
+    height: 15vh;
     text-align: right;
 }
 
@@ -11,7 +11,7 @@
     margin-top: 50px;
     margin-right: 50px;
     border-radius: 20px;
-    height: 70%;
+    height: 50%;
     width: 200px;
     color: #ffffff;
     font-weight: bold;
@@ -21,13 +21,18 @@
     border: dashed 1px #FFF;
 }
 
-.portfolio-button:focus{
+.portfolio-button:hover{
     outline: 0;
     background-color: hsl(107, 15%, 36%);
+    box-shadow: 0px 0px 0px 5px hsl(107, 15%, 36%);
+}
+
+.portfolio-button:focus{
+    outline: 0;
 }
 
 .cmd-background {
-    height: 90vh;
+    height: 85vh;
     position: relative;
     text-align: center;
     align-items: center;
@@ -42,6 +47,7 @@
 
 .cmd-console {
     width: 80%;
+    max-width: 800px;
     height: 400px;
     border-radius: 10px;
     background: hsl(0, 0%, 21%);
