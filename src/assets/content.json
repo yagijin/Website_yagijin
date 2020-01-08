@@ -96,5 +96,14 @@
                 "text": [ "you should use <ls> instead of <sl>." ]
             }
         ]
+    },
+    {
+        "command": "whoami",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "you are you." ]
+            }
+        ]
     }
 ]
