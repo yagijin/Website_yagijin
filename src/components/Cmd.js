@@ -22,7 +22,10 @@ export default function Cmd() {
   }, [stateSL]);
 
   useEffect(() => {
-    
+    document.getElementById("bodyMain").style.backgroundColor = "#b1cca9";
+    return function cleanup() {
+      document.getElementById("bodyMain").style.backgroundColor = "transparent";
+    };
   }, []);
 
   function keyPress(e) {
