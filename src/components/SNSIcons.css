@@ -1,0 +1,54 @@
+
+.icon-div {
+    padding: 0 0 0 0;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-footer {
+    margin-right: 50px;
+}
+
+.icon-title {
+    margin: 0em 0em -1em -0.5em;        
+    position: relative;
+    padding: 2px 15px;
+    font-size: 18px;/*フォントサイズ*/
+    color: #FFF;/*フォントカラー*/
+    background: #698474;/*リボンの色*/
+    width: 70pt;
+}
+  
+.icon-title:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(149, 158, 155);/*折り返し部分*/
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top: 20px;
+    width: 250px;
+    background-color: rgb(255, 250, 250);
+}
+
+.icon {
+    margin: 0.1em;
+}
+
+@media (max-width:767px) {
+    .icon-footer {
+        margin-right: 0;
+    }
+
+    .icon-div {
+        justify-content: center;
+    }
+}

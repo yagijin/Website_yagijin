@@ -3,6 +3,7 @@ import './Cmd.css';
 import content from '../assets/content.json';
 import OldCommands from "./OldCommands";
 import SL from "./SL";
+import SNSIcons from './SNSIcons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
@@ -19,6 +20,10 @@ export default function Cmd() {
   useEffect(() => {
     refStateSL.current = stateSL;
   }, [stateSL]);
+
+  useEffect(() => {
+    
+  }, []);
 
   function keyPress(e) {
     let judgeCommand = false;
@@ -107,7 +112,7 @@ export default function Cmd() {
       <div className='cmd-background'>
           <div className="cmd-console" onClick={() => consoleClicked()}>
             <div className="cmd-header">
-              <div className="cmd-circle1"></div>
+              <div className="cmd-circle1" onClick={() => window.alert("消さないで...(T T)")}></div>
               <div className="cmd-circle2"></div>
               <div className="cmd-circle3"></div>
               <div className="cmd-title">
@@ -126,6 +131,7 @@ export default function Cmd() {
             </div>
           </div>
       </div>
+      <SNSIcons/>
     </div>
   );
 }
