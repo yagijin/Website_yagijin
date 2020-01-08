@@ -228,7 +228,7 @@ export default function Profile() {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                      <FontAwesomeIcon icon={faHatWizard}  size="md" className={classes.leftIcon}/>
+                      <FontAwesomeIcon icon={faHatWizard} className={classes.leftIcon}/>
                       Magic
                       </Typography>
                       <Typography>
@@ -255,7 +255,7 @@ export default function Profile() {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                      <FontAwesomeIcon icon={faChessKnight}  size="md" className={classes.leftIcon}/>
+                      <FontAwesomeIcon icon={faChessKnight} className={classes.leftIcon}/>
                         Boardgame
                       </Typography>
                       <Typography>
@@ -277,7 +277,7 @@ export default function Profile() {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                      <FontAwesomeIcon icon={faSuitcase}  size="md" className={classes.leftIcon}/>
+                      <FontAwesomeIcon icon={faSuitcase} className={classes.leftIcon}/>
                         Travel
                       </Typography>
                       <Typography>
@@ -298,7 +298,7 @@ export default function Profile() {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                      <FontAwesomeIcon icon={faFish}  size="md" className={classes.leftIcon}/>
+                      <FontAwesomeIcon icon={faFish} className={classes.leftIcon}/>
                         Ramen
                       </Typography>
                       <Typography>

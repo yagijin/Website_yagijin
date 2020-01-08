@@ -43,7 +43,8 @@ const useStyles = makeStyles(theme => ({
               </Container>
       case 1:
         return <Container maxWidth="md">
-                </Container>
+              <></>
+              </Container>
       case 2:
         return <Container maxWidth="md">
               <img src="./static/materials/research/ssvep.png"  alt="ssvep" width="100%"/>
