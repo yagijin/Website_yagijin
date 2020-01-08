@@ -55,9 +55,9 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(6),
   },
   avatar: {
-    margin: 0,
-    width: 110,
-    height: 110,
+    marginBottom: 20,
+    width: 130,
+    height: 130,
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -102,15 +102,15 @@ export default function Profile() {
           <div className={classes.heroContent}>
             <Container maxWidth="md">
             <Grid container spacing={1}>
-              <Grid item xs={3} sm={3} md={2} align="left">
+              <Grid item xs={12} sm={3} md={2} align="left">
                 <Avatar alt="JinYagi" src="./static/materials/profile/yagi.jpeg" className={classes.avatar}/>
               </Grid>
-              <Grid item xs={9} sm={9} md={10} align="left">
+              <Grid item xs={12} sm={9} md={10} align="left">
                 <Typography component="h1" variant="h2" align="left" color="textPrimary" gutterBottom>
                   やぎじん
                 </Typography>
                 <Typography variant="h5" align="left" color="textSecondary" paragraph>
-                  登呂遺跡非公式観光親善大使
+                  静岡出身のエンジニア
                 </Typography>
               </Grid>
             </Grid>
