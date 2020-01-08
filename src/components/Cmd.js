@@ -22,6 +22,7 @@ export default function Cmd() {
 
   function keyPress(e) {
     let judgeCommand = false;
+    
     if(e.key === "ArrowUp" || e.key === "ArrowDown"){
       if(history.length>2){
         setInput(history.slice(2));
@@ -29,6 +30,7 @@ export default function Cmd() {
     }else if(e.key === "Enter"){
       for(let i=0;i<content.length;i++){
         let commandsWithArgs = input.split([" "]);
+        
         if(commandsWithArgs[0]===""){
           judgeCommand = true;
           break;
@@ -93,6 +95,9 @@ export default function Cmd() {
   function toPortfolio() {
     window.open("https://portfolio.yagijin.com/#/profile");
   }
+  function consoleClicked() {
+    document.getElementById("inputCommand").focus();
+  }
 
   return (
     <div className="background">
@@ -100,7 +105,7 @@ export default function Cmd() {
         <button className="portfolio-button" onClick={() => toPortfolio()}><FontAwesomeIcon size="lg" icon={faAngleDoubleRight}/> 通常のポートフォリオは<br/>こちらから</button>
       </div>
       <div className='cmd-background'>
-          <div className="cmd-console">
+          <div className="cmd-console" onClick={() => consoleClicked()}>
             <div className="cmd-header">
               <div className="cmd-circle1"></div>
               <div className="cmd-circle2"></div>
@@ -116,7 +121,7 @@ export default function Cmd() {
               <div className="cmd-rootpath">
                 $
               </div>
-              <input type="text" value={input} onChange={(e) => setInput(e.target.value)} className="cmd-command" onKeyDown={(e) => keyPress(e)} >
+              <input type="text" id="inputCommand" value={input} autoFocus onChange={(e) => setInput(e.target.value)} className="cmd-command" onKeyDown={(e) => keyPress(e)} >
               </input>
             </div>
           </div>
