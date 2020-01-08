@@ -50,6 +50,7 @@ html{
 }
 
 .cmd-console {
+    z-index: 1;
     width: 80%;
     max-width: 800px;
     height: 400px;
