@@ -4,7 +4,7 @@
         "body": [
             {
                 "argument": "",
-                "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab.", "sl -- don't use this command." ]
+                "text": [ "You can use following commands, ", "ls -- list directory contents.", "cat <filename> -- browse text file." , "*.app -- open new tab." ]
             }
         ]
     },
