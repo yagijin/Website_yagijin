@@ -60,20 +60,7 @@ export default function Console(){
             //タブのデフォルトの挙動（フォーカスの移動）を止める
             e.preventDefault();
 
-            //tabが押されたらコマンドをサジェストする
-            for(let i=0;i<content.length;i++){
-                if(content[i].command.indexOf(input)===0){
-                    setInput(content[i].command);
-                    break;
-                }
-            }
-
-            /*
-            let originalCommands = input.split([" "]);
-
-            if(originalCommands[0]!==undefined){
-
-            }else if(originalCommands.length===1){
+            if(commandsWithArgs[0]!==""){
                 //tabが押されたらコマンドをサジェストする
                 for(let i=0;i<content.length;i++){
                     if(content[i].command.indexOf(input)===0){
@@ -81,16 +68,7 @@ export default function Console(){
                         break;
                     }
                 }
-            }else if(originalCommands.length===2){
-                //tabが押されたら引数をサジェストする
-                for(let i=0;i<content.length;i++){
-                    if(originalCommands[0] === content[i].command){
-                        
-                    }
-                }
             }
-            */
-            console.log("tab");
         }else if(e.key === "Enter"){
             for(let i=0;i<content.length;i++){
                 if(commandsWithArgs[0]===""){

@@ -13,7 +13,7 @@
         "body": [
             {
                 "argument": "",
-                "text": [ "cat needs <filename> as argument." ]
+                "text": [ "<cat> needs <filename> as argument." ]
             },
             {
                 "argument": "award.txt",
@@ -21,7 +21,7 @@
             },
             {
                 "argument": "profile.txt",
-                "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab ...", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
+                "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab, [Java, C++, Python]", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
             }
         ]
     },
@@ -103,6 +103,39 @@
             {
                 "argument": "",
                 "text": [ "you are you." ]
+            }
+        ]
+    },
+    {
+        "command": "man",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "<man> needs <command name> as argument." ]
+            },
+            {
+                "argument": "ls",
+                "text": ["display a file list of current directory.", "you can use like \"ls\".", "no arguments needed."]
+            },
+            {
+                "argument": "sl",
+                "text": ["display animations aimed to correct users who accidentally enter <sl> instead of <ls>.", "you can use like \"sl\".", "no arguments needed."]
+            },
+            {
+                "argument": "cat",
+                "text": ["display txt file on the console.", "you can use like \"cat profile.txt\".", "<filename> is needed as an argument."]
+            },
+            {
+                "argument": "whoami",
+                "text": ["display your <username>.", "you can use like \"whoami\".", "no arguments needed."]
+            },
+            {
+                "argument": "help",
+                "text": ["display a list of commands you can use.", "you can use like \"help\".", "no arguments needed."]
+            },
+            {
+                "argument": "man",
+                "text": ["display a manual of command.", "you can use like \"man help\".", "<command name> is needed as an argument."]
             }
         ]
     }
