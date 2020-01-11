@@ -25,6 +25,9 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import EmailIcon from '@material-ui/icons/Email';
 import Fab from '@material-ui/core/Fab';
 
+import { Link } from 'react-router-dom';
+import "./Profile.css";
+
 const useStyles = makeStyles(theme => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -130,7 +133,9 @@ export default function Profile() {
                     <Typography>
                       2019/04 ~ 2021/03<br/>
                       名城大学大学院理工学研究科情報工学専攻修士課程<br/>
-                      知的センサ情報処理研究室
+                      知的センサ情報処理研究室<br/><br/>
+                      <EmailIcon/>193426019[at]ccalumni.meijo-u.ac.jp<br />
+                      ※[at]を＠で置き換えてください
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -141,13 +146,14 @@ export default function Profile() {
               <Grid item xs={12} sm={12} md={12}>
                 <ExpansionPanel expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                   <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2bh-content" id="panel2bh-header" >
-                    <Typography className={classes.heading}>連絡先</Typography>
-                    <Typography className={classes.secondaryHeading}> Email</Typography>
+                    <Typography className={classes.heading}>スキル</Typography>
+                    <Typography className={classes.secondaryHeading}> 言語</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                      <EmailIcon/>193426019[at]ccalumni.meijo-u.ac.jp<br />
-                      ※[at]を＠で置き換えてください
+                      趣味：JavaScript（React，Node）<br/>
+                      研究：Matlab <br/>
+                      授業：C++，Java，Python
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -155,6 +161,21 @@ export default function Profile() {
             </Grid>
             </Container>
           </div>
+
+          <Container maxWidth="md" style={{marginBottom:"50px", marginTop:"50px"}}>
+            <Grid container>
+              <Grid item xs={12} sm={12} md={6} align="center">
+                <Link to="/products" style={{ textDecoration: 'none',color: "#ffffff" }}>
+                  <button className="profile-button"> 作ったもの</button>
+                </Link>
+              </Grid>
+              <Grid item xs={12} sm={12} md={6} align="center">
+                <Link to="/research" style={{ textDecoration: 'none',color: "#ffffff" }}>
+                  <button className="profile-button"> 研究</button>
+                </Link>
+              </Grid>
+            </Grid>
+          </Container>
 
           <Container maxWidth="md">
           <Grid container>
@@ -181,7 +202,8 @@ export default function Profile() {
                         GitHub
                       </Typography>
                       <Typography>
-                        GitHubアカウント．制作したものがいくつかあります．
+                        GitHubアカウント．<br/>
+                        制作したものがあります．
                       </Typography>
                     </CardContent>
                     <CardActions>
@@ -206,7 +228,7 @@ export default function Profile() {
                         Twitter
                       </Typography>
                       <Typography>
-                        Twitterアカウント．たまにしかつぶやきません．
+                        Twitterアカウント．
                       </Typography>
                     </CardContent>
                     <CardActions>
@@ -232,8 +254,7 @@ export default function Profile() {
                       Magic
                       </Typography>
                       <Typography>
-                        主にスライハンドを練習. <br />
-                        現在は，ギミック作りに没頭中.
+                        楽しい．
                       </Typography>
                     </CardContent>
                     <CardActions>
@@ -260,7 +281,7 @@ export default function Profile() {
                       </Typography>
                       <Typography>
                         なんでもやります．<br />
-                        特にカタン，カルカソンヌ，スコットランドヤードなどが好きです．
+                        特にカルカソンヌが好きです．
                       </Typography>
                     </CardContent>
                     <CardActions>
@@ -281,7 +302,7 @@ export default function Profile() {
                         Travel
                       </Typography>
                       <Typography>
-                        海外旅行が好きです．アイスランドにいつか行くことが夢.
+                        アイスランドにいつか行きたい.
                       </Typography>
                     </CardContent>
                     <CardActions>
@@ -302,8 +323,8 @@ export default function Profile() {
                         Ramen
                       </Typography>
                       <Typography>
-                        究極の煮干しラーメンを作るべく日々奮闘中．
-                        いつか寸胴を買ったら豚骨もやりたい．
+                        究極の煮干しラーメンを作るべく日々奮闘中．<br/>
+                        最近は，豚骨を研究中．
                       </Typography>
                     </CardContent>
                     <CardActions>

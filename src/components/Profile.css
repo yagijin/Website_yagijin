@@ -1,0 +1,25 @@
+
+.profile-button {
+    width: 80%;
+    height: 100px;
+    font-size: 30px;
+    background-color: #698474;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    box-shadow: 0px 0px 0px 9px #698474;
+    border: dashed 1px #FFF;
+}
+
+.profile-button:hover{
+    outline: 0;
+    background-color: #5b7264;
+    box-shadow: 0px 0px 0px 10px #5b7264;
+}
+
+.profile-button:focus{
+    outline: 0;
+}

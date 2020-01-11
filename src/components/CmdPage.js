@@ -11,7 +11,7 @@ export default function CmdPage() {
   useEffect(() => {
     document.getElementById("bodyMain").style.backgroundColor = "#b1cca9";
     return function cleanup() {
-    document.getElementById("bodyMain").style.backgroundColor = "transparent";
+      document.getElementById("bodyMain").style.backgroundColor = "transparent";
     };
   }, []);
 

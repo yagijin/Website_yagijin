@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     footer: {
-      backgroundColor: "#3F51B5",
+      backgroundColor: "#698474",
       padding: theme.spacing(3),
     },
 }));
@@ -26,7 +26,7 @@ export default function MainFooter() {
     return (
         <footer className={classes.footer}>
           <Typography variant="h6" align="center" gutterBottom>
-            <Link to="/privacypolicy">
+            <Link to="/privacypolicy" style={{ textDecoration: 'none',color: "#ffffff" }}>
               <font size="3">Privacy Policy</font>
             </Link>
           </Typography>

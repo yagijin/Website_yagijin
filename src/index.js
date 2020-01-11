@@ -5,10 +5,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from 'react-router-dom';
 
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import { theme } from './assets/newcolortheme';
+
 ReactDOM.render(
-    <Router>
-        <App />
-    </Router>
+    <MuiThemeProvider theme={theme}>
+        <Router>
+            <App />
+        </Router>
+    </MuiThemeProvider>
     , document.getElementById('root'));
 
 serviceWorker.unregister();

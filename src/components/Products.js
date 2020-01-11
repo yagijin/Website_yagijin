@@ -247,7 +247,7 @@ function Products() {
                         <Card className={classes.card}>
                             <CardMedia
                             className={classes.cardMedia}
-                            image="./static/materials/profile/portfolio.png"
+                            image="./static/materials/profile/portfolio-ogp.png"
                             title="Portfolio"
                             />
                             <CardContent className={classes.cardContent}>
