@@ -102,6 +102,10 @@ export default function Console(){
                         case "products.app":
                             window.open('https://portfolio.yagijin.com/#/products');
                             break;
+                        case "qiita":
+                        case "qiita.app":
+                            window.open('https://qiita.com/yagijin');
+                            break;
                         case "sl":
                             const doSL = setInterval(() => { 
                                 setStateSL(refStateSL.current+1);

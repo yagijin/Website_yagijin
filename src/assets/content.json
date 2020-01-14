@@ -80,11 +80,29 @@
         ]
     },
     {
+        "command": "qiita.app",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
+    },
+    {
+        "command": "qiita",
+        "body": [
+            {
+                "argument": "",
+                "text": [ "You opened new window." ]
+            }
+        ]
+    },
+    {
         "command": "ls",
         "body": [
             {
                 "argument": "",
-                "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app" ]
+                "text": [ "profile.txt　award.txt　portfolio.app　github.app　products.app　qiita.app" ]
             }
         ]
     },
