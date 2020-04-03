@@ -17,11 +17,11 @@
             },
             {
                 "argument": "award.txt",
-                "text": [ "ハッカソンでの受賞経歴", "HackU2019Nagoya: HappyHacking賞", "KonicaMinoltaHackathon2019: 審査員特別賞", "OthloHack2019: Cookpad賞", "JPHACKS2019: Finalist, Innovator, Other 3 awards" ]
+                "text": [ "ハッカソンでの受賞経歴", "HackU2019Nagoya: HappyHacking賞", "KonicaMinoltaHackathon2019: 審査員特別賞", "OthloHack2019: Cookpad賞", "JPHACKS2019: Finalist, Innovator, Other 3 awards", "GeospatialHackersProgram2020: 東海大会優勝"]
             },
             {
                 "argument": "profile.txt",
-                "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士一年", "技術: JavaScript(React), Matlab, [Java, C++, Python]", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
+                "text": [ "名前: やぎじん", "所属: 名城大学大学院", "学年: 修士2年", "技術: JavaScript(React), Matlab, [Java, C++, Python]", "TOEIC: 720", "好きなこと: ボードゲーム，マジック，ラーメン"]
             }
         ]
     },
