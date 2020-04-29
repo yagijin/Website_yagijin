@@ -1,36 +1,25 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
-
-const useStyles = makeStyles(theme => ({
-    footer: {
-      backgroundColor: "#698474",
-      padding: theme.spacing(3),
-    },
-}));
+import '../App.scss';
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="textSecondary" align="center">
+      <p style={{margin: "2px 0 10px 0"}}>
         {'Copyright © Jin Yagi '}
         {new Date().getFullYear()}
         {' - All Rights Reserved. '}
-      </Typography>
+      </p>
     );
 }
 
 export default function MainFooter() {
-    const classes = useStyles();
   
     return (
-        <footer className={classes.footer}>
-          <Typography variant="h6" align="center" gutterBottom>
+        <footer className="footer-main">
             <Link to="/privacypolicy" style={{ textDecoration: 'none',color: "#ffffff" }}>
-              <font size="3">Privacy Policy</font>
+              <font style={{fontSize:"12px"}}>Privacy Policy</font>
             </Link>
-          </Typography>
-          <Copyright />
+            <Copyright />
         </footer>
     );
   }

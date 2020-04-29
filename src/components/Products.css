@@ -1,0 +1,8 @@
+
+.card {
+  width: min(350px, 70vw);
+}
+
+.products-pic-parent {
+  width: min(300px, 65vw);
+}

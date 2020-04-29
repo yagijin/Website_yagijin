@@ -1,59 +1,17 @@
 import React from "react";
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
 import MainHeader from './MainHeader.js';
 import MainFooter from './MainFooter.js';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { makeStyles } from '@material-ui/core/styles';
-import LockIcon from '@material-ui/icons/Lock';
 
-const useStyles = makeStyles(theme => ({
-    icon: {
-      marginRight: theme.spacing(2),
-    },
-    heroContent: {
-      backgroundColor: theme.palette.background.paper,
-      padding: theme.spacing(8, 0, 6),
-    },
-    heroButtons: {
-      marginTop: theme.spacing(4),
-    },
-    cardGrid: {
-      paddingTop: theme.spacing(8),
-      paddingBottom: theme.spacing(8),
-    },
-    card: {
-      height: '100%',
-      display: 'flex',
-      flexDirection: 'column',
-    },
-    cardMedia: {
-      paddingTop: '56.25%', // 16:9
-    },
-    cardContent: {
-      flexGrow: 1,
-    },
-    footer: {
-      backgroundColor: theme.palette.background.paper,
-      padding: theme.spacing(6),
-    },
-  }));
-
-
+import '../App.scss';
 
 function PrivacyPolicy() {
-    const classes = useStyles();
     return (
-        <React.Fragment>
-        <CssBaseline />
-        <MainHeader />
-        <main>
-            <div className={classes.heroContent}>
-                <Container maxWidth="lg">
-                <Typography component="h1" variant="h3" align="left" color="textPrimary" gutterBottom>
-                    <LockIcon fontSize="Large" /> Privacy Policy
-                </Typography>
-                <Typography variant="h5" align="left" color="textSecondary" paragraph>
+        <>
+          <MainHeader />
+          <div className="all-main">
+            <div className="privacy-main">
+              <h1 className="privacy-title">Privacy Policy</h1>
+              <div>
                 本サイトでは，アクセスデータの分析と解析のためにGoogle Analyticsを使用しています．<br/>
                 その際に，Googleがお使いのブラウザ上にCookieを設定したり既存のCookieの読み取りを行う場合があります．<br />
                 また，本サイトをご利用中のブラウザは，Googleに特定の非個人情報を自動的に送信します．
@@ -65,12 +23,11 @@ function PrivacyPolicy() {
                 および<a href="https://policies.google.com/privacy?hl=en&gl=en" target="_brank">Google社プライバシーポリシー</a>
                 によって定められています．<br/>
                 なお,ユーザはブラウザの設定によりCookieの受け取りを拒否することができます.
-                </Typography>
-                </Container>
+              </div>
             </div>
-        </main>
-        <MainFooter />
-        </React.Fragment>
+          </div>
+          <MainFooter />
+        </>
     );
 }
 
