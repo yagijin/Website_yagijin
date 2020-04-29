@@ -50,11 +50,11 @@ export default function Profile() {
           </ul>
 
           <div className="profile-buttons">
-            <Link to="/products" style={{ textDecoration: 'none',color: "#ffffff" }}>
-              <button className="profile-button"> 作ったもの</button>
+            <Link to="/products" style={{marginRight:"20px"}}>
+              作ったもの
             </Link>
-            <Link to="/research" style={{ textDecoration: 'none',color: "#ffffff" }}>
-              <button className="profile-button"> 研究</button>
+            <Link to="/research">
+              研究
             </Link>
           </div>
         </div>

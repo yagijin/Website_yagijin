@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import './CmdPage.css';
 import SNSIcons from './SNSIcons';
 import Console from './Console';
+import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
@@ -15,14 +16,12 @@ export default function CmdPage() {
     };
   }, []);
 
-  function toPortfolio() {
-    window.open("https://portfolio.yagijin.com/#/profile");
-  }
-
   return (
     <div className="background">
       <div className="portfolio-box">
-        <button className="portfolio-button" onClick={() => toPortfolio()}><FontAwesomeIcon size="lg" icon={faAngleDoubleRight}/> 通常のポートフォリオは<br/>こちらから</button>
+        <Link to="/profile">
+          <button className="portfolio-button"><FontAwesomeIcon size="lg" icon={faAngleDoubleRight}/> 通常のポートフォリオは<br/>こちらから</button>
+        </Link>
       </div>
       <Console/>
       <SNSIcons/>
