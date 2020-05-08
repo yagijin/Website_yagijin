@@ -15,7 +15,7 @@ export default function Profile() {
             <img alt="JinYagi" src="./static/materials/profile/yagi.jpeg" className="profile-pic"/>
             <h1 className="profile-name">
               やぎじん<br/>
-              静岡出身のエンジニア
+              <span className="profile-subtitle">静岡出身のエンジニア</span>
             </h1>
           </div>
 
