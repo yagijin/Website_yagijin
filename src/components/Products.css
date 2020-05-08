@@ -2,7 +2,23 @@
 .card {
   width: min(350px, 70vw);
 }
-
 .products-pic-parent {
-  width: min(300px, 65vw);
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.products-pic-parent:before {
+  content:"";
+  display: block;
+  padding-top: 50%;
+}
+.products-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: auto 0;
 }
