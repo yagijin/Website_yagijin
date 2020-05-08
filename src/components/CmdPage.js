@@ -18,12 +18,14 @@ export default function CmdPage() {
 
   return (
     <div className="background">
+      <div className="parenttodivide">
       <div className="portfolio-box">
         <Link to="/profile">
           <button className="portfolio-button"><FontAwesomeIcon size="lg" icon={faAngleDoubleRight}/> 通常のポートフォリオは<br/>こちらから</button>
         </Link>
       </div>
       <Console/>
+      </div>
       <SNSIcons/>
     </div>
   );
